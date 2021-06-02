@@ -1,4 +1,4 @@
-package prolim.phase1.core;
+package prolim_phase1_core;
 
 public class TypecastExg {
 
