@@ -1,4 +1,4 @@
-package prolim_phase1_core;
+package prolim_phase1_core_day1;
 
 import java.util.Iterator;
 import java.util.LinkedList;

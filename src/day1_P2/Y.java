@@ -1,7 +1,7 @@
-package P2;
+package day1_P2;
 
-import P1.M;
-import P1.N;
+import day1_P1.M;
+import day1_P1.N;
 
 public class Y extends N{
 	public static void main(String[] arg) {

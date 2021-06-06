@@ -1,4 +1,4 @@
-package P1;
+package day1_P1;
 
 public class M {
 	private int a;

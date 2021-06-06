@@ -1,4 +1,4 @@
-package prolim_phase1_core;
+package prolim_phase1_core_day2;
 
 import java.util.regex.Pattern;
 
