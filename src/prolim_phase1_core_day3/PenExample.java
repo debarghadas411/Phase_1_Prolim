@@ -3,6 +3,35 @@ abstract class Pen{
 	abstract public void write();
 	abstract public void refill();
 }
+class monkey{
+	public void jump() {
+		System.out.println("I am jumping!!");
+	}
+	public void bite() {
+		System.out.println("I am biting!!");
+	}
+}
+interface basicanimal{
+	public void eat();
+	public void sleep();
+}
+class human extends monkey implements basicanimal{
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		System.out.println("I am eating!!");
+		
+	}
+
+	@Override
+	public void sleep() {
+		// TODO Auto-generated method stub
+		System.out.println("I am sleeping!!");
+		
+	}
+	
+}
 class FountainPen extends Pen{
 
 	@Override
@@ -26,6 +55,7 @@ public class PenExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		monkey m=new human();
 		
 	}
 

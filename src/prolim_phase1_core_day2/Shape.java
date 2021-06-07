@@ -1,4 +1,4 @@
-package prolim_phase1_core_day1;
+package prolim_phase1_core_day2;
 
 public class Shape {
 	private double length;
